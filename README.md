@@ -11,4 +11,4 @@ JavaScript and HTML files for visualization of bacteria content in human navals.
     - Visual Studio Code 1.51.1
 
 ## Usage
-Navigate to this repository's [GitHub Pages]https://jsheppard95.github.io/biodiversity/
+Navigate to this repository's [GitHub Pages](https://jsheppard95.github.io/biodiversity/).
