@@ -56,6 +56,7 @@ function buildMetadata(sample) {
 function buildCharts(sample) {
   // 2. Use d3.json to load and retrieve the samples.json file
   d3.json("samples.json").then((data) => {
+    console.log(data);
     // 3. Create a variable that holds the samples array.
     var samples = data.samples;
 
@@ -64,7 +65,6 @@ function buildCharts(sample) {
 
     //  5. Create a variable that holds the first sample in the array.
     var result = resultArray[0];
-    console.log(result);
 
     // 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
     var otuIDs = result.otu_ids;
